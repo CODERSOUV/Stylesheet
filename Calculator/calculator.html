@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gabarito&family=Poppins&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylecal.css">
+</head>
+<body>
+    <h1>Welcome to Basic Calculator</h1>
+    <div class="container">
+        <input type="text" class="input">
+        <div class="row-1">
+            <button class="rbutton" onclick="appendToDisplay('7')">7</button>
+            <button class="rbutton" onclick="appendToDisplay('8')">8</button>
+            <button class="rbutton" onclick="appendToDisplay('9')">9</button>      
+            <button class="rbutton action" onclick="appendToDisplay('*')">X</button>
+        </div>
+        <div class="row-2">
+            <button class="rbutton" onclick="appendToDisplay('4')">4</button>
+            <button class="rbutton" onclick="appendToDisplay('5')">5</button>
+            <button class="rbutton" onclick="appendToDisplay('6')">6</button>
+            <button class="rbutton action" onclick="appendToDisplay('-')">-</button>
+        </div>
+        <div class="row-3">
+            <button class="rbutton" onclick="appendToDisplay('1')">1</button>
+            <button class="rbutton" onclick="appendToDisplay('2')">2</button>
+            <button class="rbutton" onclick="appendToDisplay('3')">3</button>
+            <button class="rbutton action" onclick="appendToDisplay('+')">+</button>
+        </div>
+        <div class="row-4">
+            <button class="rbutton r3" onclick="appendToDisplay('0')">0</button>
+            <button class="rbutton" onclick="clearDisplay()">C</button>
+            <button class="rbutton action" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>

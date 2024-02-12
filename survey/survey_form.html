@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style_survey.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">Geeks for Geeks Survey form</div>
+        <div class="survey">
+            <form action="" method="get">
+                <label for="name">Name<br>
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="email">Email Id<br>
+                    <input type="text" id="email" name="email">
+                </label>
+                <label for="age">Age<br>
+                    <input type="text" id="age" name="age">
+                </label>
+                <label for="profession">Which option best describes you?<br>
+                    <select id="profession" name="profession">
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="other">Others</option>
+                    </select>
+                </label>
+                <label for="recommend">Would you recommend Geeks For Geeks to a friend</label>
+                <div class="same">
+                    <label for="recommend_yes">
+                        <input type="checkbox" id="recommend_yes" name="recommendation" value="yes">
+                        Yes
+                    </label>
+                    <label for="recommend_no">
+                        <input type="checkbox" id="recommend_no" name="recommendation" value="no">
+                        No
+                    </label>
+                    <label for="recommend_maybe">
+                        <input type="checkbox" id="recommend_maybe" name="recommendation" value="maybe">
+                        Maybe
+                    </label>
+                </div>
+                <label for="known_languages">Languages and Frameworks known(Check all to apply)</label>
+                <div class="same">
+                  <label for="checkbox1">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value1">
+                    C
+                </label>
+                <label for="checkbox2">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value2">
+                    C++
+                  </label>
+                  <label for="checkbox3">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value3">
+                    Java
+                  </label>
+                  <label for="checkbox1">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value1">
+                    C#
+                </label>
+                <label for="checkbox2">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value2">
+                    Ruby
+                  </label>
+                  <label for="checkbox3">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value3">
+                    Express
+                  </label>
+                  <label for="checkbox1">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value1">
+                    Django
+                </label>
+                <label for="checkbox2">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value2">
+                    Vue JS
+                  </label>
+                  <label for="checkbox3">
+                    <input type="checkbox" id="checkbox" name="checkboxes[]" value="value3">
+                    Angular JS
+                  </label>
+                  <label for="suggestion">Any comments or any suggestion</label>
+                <input type="text" name="" id="">
+                </div>
+                <button type="button">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

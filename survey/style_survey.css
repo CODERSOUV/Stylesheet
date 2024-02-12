@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: 800;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.survey{
+    background-color: white;
+    height: 1000px;
+    width: 700px;
+}
+label{
+    padding: 10px;
+}
+.same{
+    margin-left: 10px;
+    padding: 3px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+input[type=text]{
+    height: 30px;
+    width:650px;
+}
+
+.same {
+    display: flex;
+    flex-direction: column;
+}
+
+#profession{
+    height: 40px;
+    width:650px;
+}
+button{
+    margin:20px;
+    height:30px;
+    width:650px;
+    background-color: green;
+}
